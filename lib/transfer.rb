@@ -17,8 +17,8 @@ class Transfer
 #receiver = avi -> 1050
   def execute_transaction
     if @sender.valid?
-    @sender.balance -= @amount
-    @receiver.balance += @amount
+    @sender.balance -= 50
+    @receiver.balance += 50
     @status = "complete"
     else
     @status = "rejected"
