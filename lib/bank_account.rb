@@ -14,7 +14,7 @@ class BankAccount
   end
 
   def display_balance
-    puts "Your balance is $#{@balance.to_i}."
+    return "Your balance is $#{@balance.to_i}."
   end
 
 end
