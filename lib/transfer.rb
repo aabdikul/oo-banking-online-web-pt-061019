@@ -24,5 +24,6 @@ class Transfer
     else
       puts "dog"
   end
+end
 
 end
