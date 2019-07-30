@@ -19,5 +19,6 @@ class Transfer
     @sender.balance.to_i -= @amount.to_i
     @receiver.balance.to_i += @amount.to_i
     @status = "complete"
+  end
 
 end
