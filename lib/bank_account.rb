@@ -20,7 +20,10 @@ class BankAccount
   def valid?
     if @balance.to_i <= 0
       return false
-    else
+    elsif
+      @status == "closed"
+      return false
+    else 
       return true
     end
   end
