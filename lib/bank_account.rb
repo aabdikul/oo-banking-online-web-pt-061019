@@ -31,7 +31,7 @@ class BankAccount
     #else
     #  return true
     #end
-  end
+
 
   def close_account
     @status = "closed"
