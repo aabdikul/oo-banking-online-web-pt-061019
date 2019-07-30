@@ -22,6 +22,7 @@ class BankAccount
       return false
     else
       return true
+    end
   #  if @balance.to_i <= 0
       #return false
     #elsif
