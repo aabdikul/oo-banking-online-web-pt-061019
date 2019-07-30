@@ -23,7 +23,7 @@ class Transfer
         @status = "complete"
     else
       puts "dog"
+    end
   end
-end
 
 end
