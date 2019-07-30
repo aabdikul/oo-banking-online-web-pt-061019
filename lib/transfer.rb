@@ -16,6 +16,7 @@ class Transfer
 #sender = amanda -> 950
 #receiver = avi -> 1050
   def execute_transaction
+    puts @sender.balance
     if @sender.valid?
     @sender.balance -= @amount
     @receiver.balance += @amount
