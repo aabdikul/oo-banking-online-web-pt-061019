@@ -10,7 +10,7 @@ class BankAccount
   end
 
   def deposit(amount)
-    puts balance
+    puts amount
   end
 
 end
