@@ -18,14 +18,18 @@ class BankAccount
   end
 
   def valid?
-    if @balance.to_i <= 0
-      return false
-    elsif
-      @status == "closed"
+    if @balance.to_i <=0 || @status = "closed"
       return false
     else
       return true
-    end
+  #  if @balance.to_i <= 0
+      #return false
+    #elsif
+    #  @status == "closed"
+    #  return false
+    #else
+    #  return true
+    #end
   end
 
   def close_account
