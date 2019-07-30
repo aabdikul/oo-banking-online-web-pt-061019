@@ -11,7 +11,7 @@ class BankAccount
 
   def deposit(amount)
     new_balance = balance + amount
-    new_balance
+    return new_balance
   end
 
 end
