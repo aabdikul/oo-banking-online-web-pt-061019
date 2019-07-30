@@ -17,4 +17,12 @@ class BankAccount
     return "Your balance is $#{@balance.to_i}."
   end
 
+  def valid?
+    if @balance.to_i <= 0
+      return false
+    else
+      return true
+    end
+  end
+
 end
