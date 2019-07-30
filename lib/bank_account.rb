@@ -13,4 +13,7 @@ class BankAccount
     @balance += amount.to_i
   end
 
+  def display_balance
+    puts "Your balance is $#{@balance}."
+
 end
