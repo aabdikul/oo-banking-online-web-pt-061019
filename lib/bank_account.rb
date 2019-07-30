@@ -23,9 +23,13 @@ class BankAccount
     elsif
       @status == "closed"
       return false
-    else 
+    else
       return true
     end
+  end
+
+  def close_account
+    @status = "closed"
   end
 
 end
