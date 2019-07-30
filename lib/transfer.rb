@@ -13,7 +13,9 @@ class Transfer
     @sender.valid?
     @receiver.valid?
   end
-
-  
+#sender = amanda -> 950
+#receiver = avi -> 1050
+  def execute_transaction
+    @sender.balance.to_i - @amount.to_i
 
 end
